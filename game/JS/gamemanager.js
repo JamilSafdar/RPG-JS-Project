@@ -6,7 +6,7 @@ let GameManager = {
     resetPlayer: function (classType) {
         console.log(classType);
         switch (classType) {
-            case "Knight":
+                case "Knight":
                 player = new Player(classType, 200, 0, 200, 100, 50);
                 break;
                 case "Witcher":
